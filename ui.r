@@ -9,8 +9,7 @@ input_data_tab<-function(){
   ),
   fluidRow(
   box(width=12,title="",
-numericInput(inputId="id_n",label="id_n",value=1, min = NA, max = NA, step = NA)
-%>%
+numericInput(inputId="id_n",label="id_n",value=1, min = NA, max = NA, step = NA)%>%
               shinyInput_label_embed(
                 icon("info") %>%
                   bs_embed_tooltip(title = "Change this help text for input")
@@ -40,7 +39,7 @@ textInput(inputId="activo_mercado",label="activo_mercado",placeholder="Change pl
                 icon("info") %>%
                   bs_embed_tooltip(title = "Change this help text for input")
               ),
-textInput(inputId="at_desc",label="at_desc",placeholder="Change placeholder")%>%
+textAreaInput(inputId="at_desc",label="at_desc",placeholder="Change placeholder", width = "1000px", height = "100px")%>%
               shinyInput_label_embed(
                 icon("info") %>%
                   bs_embed_tooltip(title = "Change this help text for input")

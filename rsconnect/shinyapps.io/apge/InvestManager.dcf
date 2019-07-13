@@ -1,0 +1,12 @@
+name: InvestManager
+title: InvestManager
+username:
+account: apge
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1028745
+bundleId: 2227672
+url: https://castillocs.shinyapps.io/InvestManager/
+when: 1562992801.33985
+asMultiple: FALSE
+asStatic: FALSE
